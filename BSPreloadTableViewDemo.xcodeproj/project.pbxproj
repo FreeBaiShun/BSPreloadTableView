@@ -180,9 +180,8 @@
 		334ECAF421BD578E005F8915 /* BSPreloadTableView */ = {
 			isa = PBXGroup;
 			children = (
-				334ECAF521BD578E005F8915 /* BSPreloadTableView.m */,
+				334ECB4421BD5D5B005F8915 /* BSPreloadTableView */,
 				334ECAF621BD578E005F8915 /* Reachability */,
-				334ECAFB21BD578E005F8915 /* BSPreloadTableView.h */,
 			);
 			path = BSPreloadTableView;
 			sourceTree = "<group>";
@@ -196,6 +195,15 @@
 				334ECAFA21BD578E005F8915 /* BSPTVReachabilityManager.m */,
 			);
 			path = Reachability;
+			sourceTree = "<group>";
+		};
+		334ECB4421BD5D5B005F8915 /* BSPreloadTableView */ = {
+			isa = PBXGroup;
+			children = (
+				334ECAF521BD578E005F8915 /* BSPreloadTableView.m */,
+				334ECAFB21BD578E005F8915 /* BSPreloadTableView.h */,
+			);
+			path = BSPreloadTableView;
 			sourceTree = "<group>";
 		};
 		389FFB5ACCF3DF0E408A6AF6 /* Pods */ = {
