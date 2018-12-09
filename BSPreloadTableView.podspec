@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "BSPreloadTableView"
-s.version      = "0.0.4"
+s.version      = "0.0.5"
 s.summary      = "A short description of BSPreloadTableView."
 s.description  = <<-DESC
                  一个用来实现上拉下拉，预加载功能的tableView。
