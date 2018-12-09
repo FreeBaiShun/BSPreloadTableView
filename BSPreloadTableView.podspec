@@ -11,6 +11,6 @@ s.author             = { "FreeBaiShun" => "851083075@qq.com" }
 s.platform     = :ios, "8.0"
 s.requires_arc = true
 s.source       = { :git => "https://github.com/FreeBaiShun/BSPreloadTableView.git", :tag => "#{s.version}" }
-s.source_files  = "BSPreloadTableViewDemo/BSPreloadTableViewDemo/BSPreloadTableView/*.{h,m}
+s.source_files  = "BSPreloadTableViewDemo/BSPreloadTableViewDemo/BSPreloadTableView/*.{h,m}"
 s.dependency 'MJRefresh'
 end

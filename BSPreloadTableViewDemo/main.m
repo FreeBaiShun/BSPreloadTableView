@@ -1,6 +1,6 @@
 //
 //  main.m
-//  BSPreloadTableVewDemo
+//  BSPreloadTableViewDemo
 //
 //  Created by BaiShun on 2018/12/9.
 //  Copyright © 2018 BaiShun. All rights reserved.

@@ -1,6 +1,6 @@
 //
-//  BSPreloadTableVewDemoUITests.m
-//  BSPreloadTableVewDemoUITests
+//  BSPreloadTableViewDemoUITests.m
+//  BSPreloadTableViewDemoUITests
 //
 //  Created by BaiShun on 2018/12/9.
 //  Copyright © 2018 BaiShun. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface BSPreloadTableVewDemoUITests : XCTestCase
+@interface BSPreloadTableViewDemoUITests : XCTestCase
 
 @end
 
-@implementation BSPreloadTableVewDemoUITests
+@implementation BSPreloadTableViewDemoUITests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

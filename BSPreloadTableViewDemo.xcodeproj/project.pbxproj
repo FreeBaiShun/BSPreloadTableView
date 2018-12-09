@@ -7,216 +7,216 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		334ECAA621BD2FDD005F8915 /* BSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAA521BD2FDD005F8915 /* BSRequestManager.m */; };
-		334ECAAD21BD35DA005F8915 /* TableViewCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */; };
-		334ECAAE21BD35DA005F8915 /* TableViewCellTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */; };
-		33827F2B21BD26FE00675378 /* BSPreloadTableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */; };
-		33D0B61F21BD227D00744A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B61E21BD227D00744A0E /* AppDelegate.m */; };
-		33D0B62221BD227D00744A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B62121BD227D00744A0E /* ViewController.m */; };
-		33D0B62521BD227D00744A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D0B62321BD227D00744A0E /* Main.storyboard */; };
-		33D0B62721BD227E00744A0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D0B62621BD227E00744A0E /* Assets.xcassets */; };
-		33D0B62A21BD227E00744A0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D0B62821BD227E00744A0E /* LaunchScreen.storyboard */; };
-		33D0B62D21BD227E00744A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B62C21BD227E00744A0E /* main.m */; };
-		33D0B63721BD227E00744A0E /* BSPreloadTableVewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B63621BD227E00744A0E /* BSPreloadTableVewDemoTests.m */; };
-		33D0B64221BD227E00744A0E /* BSPreloadTableVewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */; };
-		33D0B65221BD22A600744A0E /* BSPreloadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65121BD22A600744A0E /* BSPreloadTableView.m */; };
-		33D0B65821BD247200744A0E /* BSPTVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65421BD247200744A0E /* BSPTVReachability.m */; };
-		33D0B65921BD247200744A0E /* BSPTVReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */; };
-		4DD7D6620D3B7A30D0A7A013 /* libPods-BSPreloadTableVewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */; };
-		9732C3EC538181C63569DC0B /* libPods-BSPreloadTableVewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */; };
-		E90C384767A7FD1A13C1FF5A /* libPods-BSPreloadTableVewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */; };
+		334ECABD21BD5555005F8915 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECABC21BD5555005F8915 /* AppDelegate.m */; };
+		334ECAC321BD5555005F8915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAC121BD5555005F8915 /* Main.storyboard */; };
+		334ECAC521BD5555005F8915 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAC421BD5555005F8915 /* Assets.xcassets */; };
+		334ECAC821BD5555005F8915 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAC621BD5555005F8915 /* LaunchScreen.storyboard */; };
+		334ECACB21BD5555005F8915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECACA21BD5555005F8915 /* main.m */; };
+		334ECAD521BD5556005F8915 /* BSPreloadTableViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAD421BD5556005F8915 /* BSPreloadTableViewDemoTests.m */; };
+		334ECAE021BD5556005F8915 /* BSPreloadTableViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECADF21BD5556005F8915 /* BSPreloadTableViewDemoUITests.m */; };
+		334ECAFE21BD578E005F8915 /* BSPreloadTableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAEE21BD578D005F8915 /* BSPreloadTableViewDemo.m */; };
+		334ECAFF21BD578E005F8915 /* TableViewCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAF121BD578D005F8915 /* TableViewCellTest.m */; };
+		334ECB0021BD578E005F8915 /* TableViewCellTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAF321BD578D005F8915 /* TableViewCellTest.xib */; };
+		334ECB0121BD578E005F8915 /* BSPreloadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAF521BD578E005F8915 /* BSPreloadTableView.m */; };
+		334ECB0221BD578E005F8915 /* BSPTVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAF721BD578E005F8915 /* BSPTVReachability.m */; };
+		334ECB0321BD578E005F8915 /* BSPTVReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAFA21BD578E005F8915 /* BSPTVReachabilityManager.m */; };
+		334ECB0421BD578E005F8915 /* BSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAFC21BD578E005F8915 /* BSRequestManager.m */; };
+		334ECB0521BD578E005F8915 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAFD21BD578E005F8915 /* ViewController.m */; };
+		54F674129DB28A99BFC51802 /* libPods-BSPreloadTableViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB1FE57091CBF33C4ECA00FE /* libPods-BSPreloadTableViewDemoUITests.a */; };
+		8E2350E3B7F184F80E364615 /* libPods-BSPreloadTableViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B5C0ECC87B047D37277B48 /* libPods-BSPreloadTableViewDemoTests.a */; };
+		BF951B7696FFEF8D76500A94 /* libPods-BSPreloadTableViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8E44356C2A6D597A01F701 /* libPods-BSPreloadTableViewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		33D0B63321BD227E00744A0E /* PBXContainerItemProxy */ = {
+		334ECAD121BD5556005F8915 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 33D0B61221BD227D00744A0E /* Project object */;
+			containerPortal = 334ECAB021BD5555005F8915 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33D0B61921BD227D00744A0E;
-			remoteInfo = BSPreloadTableVewDemo;
+			remoteGlobalIDString = 334ECAB721BD5555005F8915;
+			remoteInfo = BSPreloadTableViewDemo;
 		};
-		33D0B63E21BD227E00744A0E /* PBXContainerItemProxy */ = {
+		334ECADC21BD5556005F8915 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 33D0B61221BD227D00744A0E /* Project object */;
+			containerPortal = 334ECAB021BD5555005F8915 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33D0B61921BD227D00744A0E;
-			remoteInfo = BSPreloadTableVewDemo;
+			remoteGlobalIDString = 334ECAB721BD5555005F8915;
+			remoteInfo = BSPreloadTableViewDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		334ECAA421BD2FDD005F8915 /* BSRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSRequestManager.h; sourceTree = "<group>"; };
-		334ECAA521BD2FDD005F8915 /* BSRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSRequestManager.m; sourceTree = "<group>"; };
-		334ECAAA21BD35DA005F8915 /* TableViewCellTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellTest.h; sourceTree = "<group>"; };
-		334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTest.m; sourceTree = "<group>"; };
-		334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellTest.xib; sourceTree = "<group>"; };
-		33827F2921BD26FE00675378 /* BSPreloadTableViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableViewDemo.h; sourceTree = "<group>"; };
-		33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemo.m; sourceTree = "<group>"; };
-		33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPreloadTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D0B61D21BD227D00744A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		33D0B61E21BD227D00744A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33D0B62021BD227D00744A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33D0B62121BD227D00744A0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		33D0B62421BD227D00744A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		33D0B62621BD227E00744A0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		33D0B62921BD227E00744A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		33D0B62B21BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33D0B62C21BD227E00744A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D0B63621BD227E00744A0E /* BSPreloadTableVewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableVewDemoTests.m; sourceTree = "<group>"; };
-		33D0B63821BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableVewDemoUITests.m; sourceTree = "<group>"; };
-		33D0B64321BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33D0B65021BD22A600744A0E /* BSPreloadTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableView.h; sourceTree = "<group>"; };
-		33D0B65121BD22A600744A0E /* BSPreloadTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableView.m; sourceTree = "<group>"; };
-		33D0B65421BD247200744A0E /* BSPTVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachability.m; sourceTree = "<group>"; };
-		33D0B65521BD247200744A0E /* BSPTVReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachabilityManager.h; sourceTree = "<group>"; };
-		33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachabilityManager.m; sourceTree = "<group>"; };
-		33D0B65721BD247200744A0E /* BSPTVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachability.h; sourceTree = "<group>"; };
-		3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoUITests/Pods-BSPreloadTableVewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo.release.xcconfig"; sourceTree = "<group>"; };
-		879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoUITests/Pods-BSPreloadTableVewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoTests/Pods-BSPreloadTableVewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoTests/Pods-BSPreloadTableVewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F1F81CC635E0DC947BE101 /* Pods-BSPreloadTableViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemo/Pods-BSPreloadTableViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2F8E44356C2A6D597A01F701 /* libPods-BSPreloadTableViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		334ECAB821BD5555005F8915 /* BSPreloadTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPreloadTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		334ECABB21BD5555005F8915 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		334ECABC21BD5555005F8915 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		334ECAC221BD5555005F8915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		334ECAC421BD5555005F8915 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		334ECAC721BD5555005F8915 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		334ECAC921BD5555005F8915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334ECACA21BD5555005F8915 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		334ECAD021BD5556005F8915 /* BSPreloadTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334ECAD421BD5556005F8915 /* BSPreloadTableViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemoTests.m; sourceTree = "<group>"; };
+		334ECAD621BD5556005F8915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334ECADB21BD5556005F8915 /* BSPreloadTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		334ECADF21BD5556005F8915 /* BSPreloadTableViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemoUITests.m; sourceTree = "<group>"; };
+		334ECAE121BD5556005F8915 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		334ECAED21BD578D005F8915 /* BSRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRequestManager.h; sourceTree = "<group>"; };
+		334ECAEE21BD578D005F8915 /* BSPreloadTableViewDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemo.m; sourceTree = "<group>"; };
+		334ECAEF21BD578D005F8915 /* BSPreloadTableViewDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableViewDemo.h; sourceTree = "<group>"; };
+		334ECAF021BD578D005F8915 /* TableViewCellTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellTest.h; sourceTree = "<group>"; };
+		334ECAF121BD578D005F8915 /* TableViewCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTest.m; sourceTree = "<group>"; };
+		334ECAF221BD578D005F8915 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		334ECAF321BD578D005F8915 /* TableViewCellTest.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellTest.xib; sourceTree = "<group>"; };
+		334ECAF521BD578E005F8915 /* BSPreloadTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableView.m; sourceTree = "<group>"; };
+		334ECAF721BD578E005F8915 /* BSPTVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachability.m; sourceTree = "<group>"; };
+		334ECAF821BD578E005F8915 /* BSPTVReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachabilityManager.h; sourceTree = "<group>"; };
+		334ECAF921BD578E005F8915 /* BSPTVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachability.h; sourceTree = "<group>"; };
+		334ECAFA21BD578E005F8915 /* BSPTVReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachabilityManager.m; sourceTree = "<group>"; };
+		334ECAFB21BD578E005F8915 /* BSPreloadTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableView.h; sourceTree = "<group>"; };
+		334ECAFC21BD578E005F8915 /* BSRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRequestManager.m; sourceTree = "<group>"; };
+		334ECAFD21BD578E005F8915 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		565298D1A889799407158B11 /* Pods-BSPreloadTableViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemoTests/Pods-BSPreloadTableViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D2C8CB12E49FB8CF81191C0 /* Pods-BSPreloadTableViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemo/Pods-BSPreloadTableViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1AB575A1B787F18D3FF891 /* Pods-BSPreloadTableViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemoTests/Pods-BSPreloadTableViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		97B5C0ECC87B047D37277B48 /* libPods-BSPreloadTableViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F6A99565A461BD644D0079 /* Pods-BSPreloadTableViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemoUITests/Pods-BSPreloadTableViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FB1FE57091CBF33C4ECA00FE /* libPods-BSPreloadTableViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEBA8196DE522D5CDB45E9E2 /* Pods-BSPreloadTableViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableViewDemoUITests/Pods-BSPreloadTableViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		33D0B61721BD227D00744A0E /* Frameworks */ = {
+		334ECAB521BD5555005F8915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E90C384767A7FD1A13C1FF5A /* libPods-BSPreloadTableVewDemo.a in Frameworks */,
+				BF951B7696FFEF8D76500A94 /* libPods-BSPreloadTableViewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B62F21BD227E00744A0E /* Frameworks */ = {
+		334ECACD21BD5556005F8915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DD7D6620D3B7A30D0A7A013 /* libPods-BSPreloadTableVewDemoTests.a in Frameworks */,
+				8E2350E3B7F184F80E364615 /* libPods-BSPreloadTableViewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B63A21BD227E00744A0E /* Frameworks */ = {
+		334ECAD821BD5556005F8915 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9732C3EC538181C63569DC0B /* libPods-BSPreloadTableVewDemoUITests.a in Frameworks */,
+				54F674129DB28A99BFC51802 /* libPods-BSPreloadTableViewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03CD04A2D668B774CC3EE274 /* Pods */ = {
+		334ECAAF21BD5555005F8915 = {
 			isa = PBXGroup;
 			children = (
-				8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */,
-				82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */,
-				A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */,
-				C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */,
-				8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */,
-				69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		33D0B61121BD227D00744A0E = {
-			isa = PBXGroup;
-			children = (
-				33D0B61C21BD227D00744A0E /* BSPreloadTableVewDemo */,
-				33D0B63521BD227E00744A0E /* BSPreloadTableVewDemoTests */,
-				33D0B64021BD227E00744A0E /* BSPreloadTableVewDemoUITests */,
-				33D0B61B21BD227D00744A0E /* Products */,
-				03CD04A2D668B774CC3EE274 /* Pods */,
-				6A05603CF2EA2AADE9BC5674 /* Frameworks */,
+				334ECABA21BD5555005F8915 /* BSPreloadTableViewDemo */,
+				334ECAD321BD5556005F8915 /* BSPreloadTableViewDemoTests */,
+				334ECADE21BD5556005F8915 /* BSPreloadTableViewDemoUITests */,
+				334ECAB921BD5555005F8915 /* Products */,
+				389FFB5ACCF3DF0E408A6AF6 /* Pods */,
+				9094E4ABBD59045866B8B44C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		33D0B61B21BD227D00744A0E /* Products */ = {
+		334ECAB921BD5555005F8915 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */,
-				33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */,
-				33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */,
+				334ECAB821BD5555005F8915 /* BSPreloadTableViewDemo.app */,
+				334ECAD021BD5556005F8915 /* BSPreloadTableViewDemoTests.xctest */,
+				334ECADB21BD5556005F8915 /* BSPreloadTableViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33D0B61C21BD227D00744A0E /* BSPreloadTableVewDemo */ = {
+		334ECABA21BD5555005F8915 /* BSPreloadTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B64F21BD228500744A0E /* BSPreloadTableVew */,
-				33D0B61D21BD227D00744A0E /* AppDelegate.h */,
-				33D0B61E21BD227D00744A0E /* AppDelegate.m */,
-				33D0B62021BD227D00744A0E /* ViewController.h */,
-				33D0B62121BD227D00744A0E /* ViewController.m */,
-				33827F2921BD26FE00675378 /* BSPreloadTableViewDemo.h */,
-				33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */,
-				334ECAAA21BD35DA005F8915 /* TableViewCellTest.h */,
-				334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */,
-				334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */,
-				33D0B62321BD227D00744A0E /* Main.storyboard */,
-				33D0B62621BD227E00744A0E /* Assets.xcassets */,
-				33D0B62821BD227E00744A0E /* LaunchScreen.storyboard */,
-				33D0B62B21BD227E00744A0E /* Info.plist */,
-				33D0B62C21BD227E00744A0E /* main.m */,
-				334ECAA421BD2FDD005F8915 /* BSRequestManager.h */,
-				334ECAA521BD2FDD005F8915 /* BSRequestManager.m */,
+				334ECAF421BD578E005F8915 /* BSPreloadTableView */,
+				334ECAEF21BD578D005F8915 /* BSPreloadTableViewDemo.h */,
+				334ECAEE21BD578D005F8915 /* BSPreloadTableViewDemo.m */,
+				334ECAED21BD578D005F8915 /* BSRequestManager.h */,
+				334ECAFC21BD578E005F8915 /* BSRequestManager.m */,
+				334ECAF021BD578D005F8915 /* TableViewCellTest.h */,
+				334ECAF121BD578D005F8915 /* TableViewCellTest.m */,
+				334ECAF321BD578D005F8915 /* TableViewCellTest.xib */,
+				334ECAF221BD578D005F8915 /* ViewController.h */,
+				334ECAFD21BD578E005F8915 /* ViewController.m */,
+				334ECABB21BD5555005F8915 /* AppDelegate.h */,
+				334ECABC21BD5555005F8915 /* AppDelegate.m */,
+				334ECAC121BD5555005F8915 /* Main.storyboard */,
+				334ECAC421BD5555005F8915 /* Assets.xcassets */,
+				334ECAC621BD5555005F8915 /* LaunchScreen.storyboard */,
+				334ECAC921BD5555005F8915 /* Info.plist */,
+				334ECACA21BD5555005F8915 /* main.m */,
 			);
-			path = BSPreloadTableVewDemo;
+			path = BSPreloadTableViewDemo;
 			sourceTree = "<group>";
 		};
-		33D0B63521BD227E00744A0E /* BSPreloadTableVewDemoTests */ = {
+		334ECAD321BD5556005F8915 /* BSPreloadTableViewDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B63621BD227E00744A0E /* BSPreloadTableVewDemoTests.m */,
-				33D0B63821BD227E00744A0E /* Info.plist */,
+				334ECAD421BD5556005F8915 /* BSPreloadTableViewDemoTests.m */,
+				334ECAD621BD5556005F8915 /* Info.plist */,
 			);
-			path = BSPreloadTableVewDemoTests;
+			path = BSPreloadTableViewDemoTests;
 			sourceTree = "<group>";
 		};
-		33D0B64021BD227E00744A0E /* BSPreloadTableVewDemoUITests */ = {
+		334ECADE21BD5556005F8915 /* BSPreloadTableViewDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */,
-				33D0B64321BD227E00744A0E /* Info.plist */,
+				334ECADF21BD5556005F8915 /* BSPreloadTableViewDemoUITests.m */,
+				334ECAE121BD5556005F8915 /* Info.plist */,
 			);
-			path = BSPreloadTableVewDemoUITests;
+			path = BSPreloadTableViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		33D0B64F21BD228500744A0E /* BSPreloadTableVew */ = {
+		334ECAF421BD578E005F8915 /* BSPreloadTableView */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B65321BD247200744A0E /* Reachability */,
-				33D0B65021BD22A600744A0E /* BSPreloadTableView.h */,
-				33D0B65121BD22A600744A0E /* BSPreloadTableView.m */,
+				334ECAF521BD578E005F8915 /* BSPreloadTableView.m */,
+				334ECAF621BD578E005F8915 /* Reachability */,
+				334ECAFB21BD578E005F8915 /* BSPreloadTableView.h */,
 			);
-			path = BSPreloadTableVew;
+			path = BSPreloadTableView;
 			sourceTree = "<group>";
 		};
-		33D0B65321BD247200744A0E /* Reachability */ = {
+		334ECAF621BD578E005F8915 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B65721BD247200744A0E /* BSPTVReachability.h */,
-				33D0B65421BD247200744A0E /* BSPTVReachability.m */,
-				33D0B65521BD247200744A0E /* BSPTVReachabilityManager.h */,
-				33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */,
+				334ECAF721BD578E005F8915 /* BSPTVReachability.m */,
+				334ECAF821BD578E005F8915 /* BSPTVReachabilityManager.h */,
+				334ECAF921BD578E005F8915 /* BSPTVReachability.h */,
+				334ECAFA21BD578E005F8915 /* BSPTVReachabilityManager.m */,
 			);
 			path = Reachability;
 			sourceTree = "<group>";
 		};
-		6A05603CF2EA2AADE9BC5674 /* Frameworks */ = {
+		389FFB5ACCF3DF0E408A6AF6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */,
-				879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */,
-				FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */,
+				6D2C8CB12E49FB8CF81191C0 /* Pods-BSPreloadTableViewDemo.debug.xcconfig */,
+				27F1F81CC635E0DC947BE101 /* Pods-BSPreloadTableViewDemo.release.xcconfig */,
+				565298D1A889799407158B11 /* Pods-BSPreloadTableViewDemoTests.debug.xcconfig */,
+				7C1AB575A1B787F18D3FF891 /* Pods-BSPreloadTableViewDemoTests.release.xcconfig */,
+				FEBA8196DE522D5CDB45E9E2 /* Pods-BSPreloadTableViewDemoUITests.debug.xcconfig */,
+				B6F6A99565A461BD644D0079 /* Pods-BSPreloadTableViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9094E4ABBD59045866B8B44C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F8E44356C2A6D597A01F701 /* libPods-BSPreloadTableViewDemo.a */,
+				97B5C0ECC87B047D37277B48 /* libPods-BSPreloadTableViewDemoTests.a */,
+				FB1FE57091CBF33C4ECA00FE /* libPods-BSPreloadTableViewDemoUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -224,86 +224,86 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */ = {
+		334ECAB721BD5555005F8915 /* BSPreloadTableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */;
+			buildConfigurationList = 334ECAE421BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */;
 			buildPhases = (
-				519DBA61300FADB1430D180D /* [CP] Check Pods Manifest.lock */,
-				33D0B61621BD227D00744A0E /* Sources */,
-				33D0B61721BD227D00744A0E /* Frameworks */,
-				33D0B61821BD227D00744A0E /* Resources */,
-				AE183E30D1B2391543DBD8AB /* [CP] Copy Pods Resources */,
+				250E6A39A60ACA1369DEEC21 /* [CP] Check Pods Manifest.lock */,
+				334ECAB421BD5555005F8915 /* Sources */,
+				334ECAB521BD5555005F8915 /* Frameworks */,
+				334ECAB621BD5555005F8915 /* Resources */,
+				58B0E9013D1925FB44431863 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BSPreloadTableViewDemo;
-			productName = BSPreloadTableVewDemo;
-			productReference = 33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */;
+			productName = BSPreloadTableViewDemo;
+			productReference = 334ECAB821BD5555005F8915 /* BSPreloadTableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		33D0B63121BD227E00744A0E /* BSPreloadTableViewDemoTests */ = {
+		334ECACF21BD5556005F8915 /* BSPreloadTableViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */;
+			buildConfigurationList = 334ECAE721BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */;
 			buildPhases = (
-				02F963F5F3D9365358F3476E /* [CP] Check Pods Manifest.lock */,
-				33D0B62E21BD227E00744A0E /* Sources */,
-				33D0B62F21BD227E00744A0E /* Frameworks */,
-				33D0B63021BD227E00744A0E /* Resources */,
+				83C3C65437664234CB7FFFB6 /* [CP] Check Pods Manifest.lock */,
+				334ECACC21BD5556005F8915 /* Sources */,
+				334ECACD21BD5556005F8915 /* Frameworks */,
+				334ECACE21BD5556005F8915 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33D0B63421BD227E00744A0E /* PBXTargetDependency */,
+				334ECAD221BD5556005F8915 /* PBXTargetDependency */,
 			);
 			name = BSPreloadTableViewDemoTests;
-			productName = BSPreloadTableVewDemoTests;
-			productReference = 33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */;
+			productName = BSPreloadTableViewDemoTests;
+			productReference = 334ECAD021BD5556005F8915 /* BSPreloadTableViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		33D0B63C21BD227E00744A0E /* BSPreloadTableViewDemoUITests */ = {
+		334ECADA21BD5556005F8915 /* BSPreloadTableViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */;
+			buildConfigurationList = 334ECAEA21BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */;
 			buildPhases = (
-				DD4595D00FFE331CD868842E /* [CP] Check Pods Manifest.lock */,
-				33D0B63921BD227E00744A0E /* Sources */,
-				33D0B63A21BD227E00744A0E /* Frameworks */,
-				33D0B63B21BD227E00744A0E /* Resources */,
+				72E8697A78609B95FCD78175 /* [CP] Check Pods Manifest.lock */,
+				334ECAD721BD5556005F8915 /* Sources */,
+				334ECAD821BD5556005F8915 /* Frameworks */,
+				334ECAD921BD5556005F8915 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				33D0B63F21BD227E00744A0E /* PBXTargetDependency */,
+				334ECADD21BD5556005F8915 /* PBXTargetDependency */,
 			);
 			name = BSPreloadTableViewDemoUITests;
-			productName = BSPreloadTableVewDemoUITests;
-			productReference = 33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */;
+			productName = BSPreloadTableViewDemoUITests;
+			productReference = 334ECADB21BD5556005F8915 /* BSPreloadTableViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		33D0B61221BD227D00744A0E /* Project object */ = {
+		334ECAB021BD5555005F8915 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = BaiShun;
 				TargetAttributes = {
-					33D0B61921BD227D00744A0E = {
+					334ECAB721BD5555005F8915 = {
 						CreatedOnToolsVersion = 10.0;
 					};
-					33D0B63121BD227E00744A0E = {
+					334ECACF21BD5556005F8915 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 33D0B61921BD227D00744A0E;
+						TestTargetID = 334ECAB721BD5555005F8915;
 					};
-					33D0B63C21BD227E00744A0E = {
+					334ECADA21BD5556005F8915 = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = 33D0B61921BD227D00744A0E;
+						TestTargetID = 334ECAB721BD5555005F8915;
 					};
 				};
 			};
-			buildConfigurationList = 33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */;
+			buildConfigurationList = 334ECAB321BD5555005F8915 /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -311,38 +311,38 @@
 				en,
 				Base,
 			);
-			mainGroup = 33D0B61121BD227D00744A0E;
-			productRefGroup = 33D0B61B21BD227D00744A0E /* Products */;
+			mainGroup = 334ECAAF21BD5555005F8915;
+			productRefGroup = 334ECAB921BD5555005F8915 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */,
-				33D0B63121BD227E00744A0E /* BSPreloadTableViewDemoTests */,
-				33D0B63C21BD227E00744A0E /* BSPreloadTableViewDemoUITests */,
+				334ECAB721BD5555005F8915 /* BSPreloadTableViewDemo */,
+				334ECACF21BD5556005F8915 /* BSPreloadTableViewDemoTests */,
+				334ECADA21BD5556005F8915 /* BSPreloadTableViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		33D0B61821BD227D00744A0E /* Resources */ = {
+		334ECAB621BD5555005F8915 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D0B62A21BD227E00744A0E /* LaunchScreen.storyboard in Resources */,
-				334ECAAE21BD35DA005F8915 /* TableViewCellTest.xib in Resources */,
-				33D0B62721BD227E00744A0E /* Assets.xcassets in Resources */,
-				33D0B62521BD227D00744A0E /* Main.storyboard in Resources */,
+				334ECAC821BD5555005F8915 /* LaunchScreen.storyboard in Resources */,
+				334ECB0021BD578E005F8915 /* TableViewCellTest.xib in Resources */,
+				334ECAC521BD5555005F8915 /* Assets.xcassets in Resources */,
+				334ECAC321BD5555005F8915 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B63021BD227E00744A0E /* Resources */ = {
+		334ECACE21BD5556005F8915 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B63B21BD227E00744A0E /* Resources */ = {
+		334ECAD921BD5556005F8915 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -352,7 +352,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02F963F5F3D9365358F3476E /* [CP] Check Pods Manifest.lock */ = {
+		250E6A39A60ACA1369DEEC21 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -367,14 +367,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemoTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableViewDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		519DBA61300FADB1430D180D /* [CP] Check Pods Manifest.lock */ = {
+		58B0E9013D1925FB44431863 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -382,29 +382,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemo-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AE183E30D1B2391543DBD8AB /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableViewDemo/Pods-BSPreloadTableViewDemo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -415,10 +393,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableViewDemo/Pods-BSPreloadTableViewDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DD4595D00FFE331CD868842E /* [CP] Check Pods Manifest.lock */ = {
+		72E8697A78609B95FCD78175 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,7 +411,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemoUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C3C65437664234CB7FFFB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableViewDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -443,66 +443,66 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33D0B61621BD227D00744A0E /* Sources */ = {
+		334ECAB421BD5555005F8915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D0B65921BD247200744A0E /* BSPTVReachabilityManager.m in Sources */,
-				33D0B62221BD227D00744A0E /* ViewController.m in Sources */,
-				33D0B62D21BD227E00744A0E /* main.m in Sources */,
-				33D0B65221BD22A600744A0E /* BSPreloadTableView.m in Sources */,
-				33827F2B21BD26FE00675378 /* BSPreloadTableViewDemo.m in Sources */,
-				334ECAAD21BD35DA005F8915 /* TableViewCellTest.m in Sources */,
-				33D0B61F21BD227D00744A0E /* AppDelegate.m in Sources */,
-				334ECAA621BD2FDD005F8915 /* BSRequestManager.m in Sources */,
-				33D0B65821BD247200744A0E /* BSPTVReachability.m in Sources */,
+				334ECB0521BD578E005F8915 /* ViewController.m in Sources */,
+				334ECB0321BD578E005F8915 /* BSPTVReachabilityManager.m in Sources */,
+				334ECACB21BD5555005F8915 /* main.m in Sources */,
+				334ECAFF21BD578E005F8915 /* TableViewCellTest.m in Sources */,
+				334ECB0121BD578E005F8915 /* BSPreloadTableView.m in Sources */,
+				334ECAFE21BD578E005F8915 /* BSPreloadTableViewDemo.m in Sources */,
+				334ECB0221BD578E005F8915 /* BSPTVReachability.m in Sources */,
+				334ECB0421BD578E005F8915 /* BSRequestManager.m in Sources */,
+				334ECABD21BD5555005F8915 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B62E21BD227E00744A0E /* Sources */ = {
+		334ECACC21BD5556005F8915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D0B63721BD227E00744A0E /* BSPreloadTableVewDemoTests.m in Sources */,
+				334ECAD521BD5556005F8915 /* BSPreloadTableViewDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		33D0B63921BD227E00744A0E /* Sources */ = {
+		334ECAD721BD5556005F8915 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33D0B64221BD227E00744A0E /* BSPreloadTableVewDemoUITests.m in Sources */,
+				334ECAE021BD5556005F8915 /* BSPreloadTableViewDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		33D0B63421BD227E00744A0E /* PBXTargetDependency */ = {
+		334ECAD221BD5556005F8915 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */;
-			targetProxy = 33D0B63321BD227E00744A0E /* PBXContainerItemProxy */;
+			target = 334ECAB721BD5555005F8915 /* BSPreloadTableViewDemo */;
+			targetProxy = 334ECAD121BD5556005F8915 /* PBXContainerItemProxy */;
 		};
-		33D0B63F21BD227E00744A0E /* PBXTargetDependency */ = {
+		334ECADD21BD5556005F8915 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */;
-			targetProxy = 33D0B63E21BD227E00744A0E /* PBXContainerItemProxy */;
+			target = 334ECAB721BD5555005F8915 /* BSPreloadTableViewDemo */;
+			targetProxy = 334ECADC21BD5556005F8915 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		33D0B62321BD227D00744A0E /* Main.storyboard */ = {
+		334ECAC121BD5555005F8915 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33D0B62421BD227D00744A0E /* Base */,
+				334ECAC221BD5555005F8915 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		33D0B62821BD227E00744A0E /* LaunchScreen.storyboard */ = {
+		334ECAC621BD5555005F8915 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				33D0B62921BD227E00744A0E /* Base */,
+				334ECAC721BD5555005F8915 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -510,7 +510,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		33D0B64421BD227E00744A0E /* Debug */ = {
+		334ECAE221BD5556005F8915 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -569,7 +569,7 @@
 			};
 			name = Debug;
 		};
-		33D0B64521BD227E00744A0E /* Release */ = {
+		334ECAE321BD5556005F8915 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -622,160 +622,160 @@
 			};
 			name = Release;
 		};
-		33D0B64721BD227E00744A0E /* Debug */ = {
+		334ECAE521BD5556005F8915 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */;
+			baseConfigurationReference = 6D2C8CB12E49FB8CF81191C0 /* Pods-BSPreloadTableViewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemo/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		33D0B64821BD227E00744A0E /* Release */ = {
+		334ECAE621BD5556005F8915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */;
+			baseConfigurationReference = 27F1F81CC635E0DC947BE101 /* Pods-BSPreloadTableViewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemo/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		33D0B64A21BD227E00744A0E /* Debug */ = {
+		334ECAE821BD5556005F8915 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 565298D1A889799407158B11 /* Pods-BSPreloadTableViewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemoTests/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableViewDemo.app/BSPreloadTableViewDemo";
 			};
 			name = Debug;
 		};
-		33D0B64B21BD227E00744A0E /* Release */ = {
+		334ECAE921BD5556005F8915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */;
+			baseConfigurationReference = 7C1AB575A1B787F18D3FF891 /* Pods-BSPreloadTableViewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemoTests/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableViewDemo.app/BSPreloadTableViewDemo";
 			};
 			name = Release;
 		};
-		33D0B64D21BD227E00744A0E /* Debug */ = {
+		334ECAEB21BD5556005F8915 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */;
+			baseConfigurationReference = FEBA8196DE522D5CDB45E9E2 /* Pods-BSPreloadTableViewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemoUITests/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BSPreloadTableVewDemo;
+				TEST_TARGET_NAME = BSPreloadTableViewDemo;
 			};
 			name = Debug;
 		};
-		33D0B64E21BD227E00744A0E /* Release */ = {
+		334ECAEC21BD5556005F8915 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */;
+			baseConfigurationReference = B6F6A99565A461BD644D0079 /* Pods-BSPreloadTableViewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
-				INFOPLIST_FILE = BSPreloadTableVewDemoUITests/Info.plist;
+				INFOPLIST_FILE = BSPreloadTableViewDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableViewDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BSPreloadTableVewDemo;
+				TEST_TARGET_NAME = BSPreloadTableViewDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */ = {
+		334ECAB321BD5555005F8915 /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33D0B64421BD227E00744A0E /* Debug */,
-				33D0B64521BD227E00744A0E /* Release */,
+				334ECAE221BD5556005F8915 /* Debug */,
+				334ECAE321BD5556005F8915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */ = {
+		334ECAE421BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33D0B64721BD227E00744A0E /* Debug */,
-				33D0B64821BD227E00744A0E /* Release */,
+				334ECAE521BD5556005F8915 /* Debug */,
+				334ECAE621BD5556005F8915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */ = {
+		334ECAE721BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33D0B64A21BD227E00744A0E /* Debug */,
-				33D0B64B21BD227E00744A0E /* Release */,
+				334ECAE821BD5556005F8915 /* Debug */,
+				334ECAE921BD5556005F8915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */ = {
+		334ECAEA21BD5556005F8915 /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33D0B64D21BD227E00744A0E /* Debug */,
-				33D0B64E21BD227E00744A0E /* Release */,
+				334ECAEB21BD5556005F8915 /* Debug */,
+				334ECAEC21BD5556005F8915 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 33D0B61221BD227D00744A0E /* Project object */;
+	rootObject = 334ECAB021BD5555005F8915 /* Project object */;
 }

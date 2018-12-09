@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4EF7CB5AFB29E6C794EE27C3D3C6553D"
-               BlueprintName = "Pods-BSPreloadTableVewDemo"
+               BlueprintIdentifier = "C8D84C60233D0FCC24636B537BAA2BE1"
+               BlueprintName = "Pods-BSPreloadTableViewDemoUITests"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libPods-BSPreloadTableVewDemo.a">
+               BuildableName = "libPods-BSPreloadTableViewDemoUITests.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
