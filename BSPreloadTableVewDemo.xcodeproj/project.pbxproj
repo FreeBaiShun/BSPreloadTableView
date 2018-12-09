@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		334ECAA621BD2FDD005F8915 /* BSRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAA521BD2FDD005F8915 /* BSRequestManager.m */; };
+		334ECAAD21BD35DA005F8915 /* TableViewCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */; };
+		334ECAAE21BD35DA005F8915 /* TableViewCellTest.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */; };
+		33827F2B21BD26FE00675378 /* BSPreloadTableViewDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */; };
 		33D0B61F21BD227D00744A0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B61E21BD227D00744A0E /* AppDelegate.m */; };
 		33D0B62221BD227D00744A0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B62121BD227D00744A0E /* ViewController.m */; };
 		33D0B62521BD227D00744A0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33D0B62321BD227D00744A0E /* Main.storyboard */; };
@@ -15,6 +19,12 @@
 		33D0B62D21BD227E00744A0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B62C21BD227E00744A0E /* main.m */; };
 		33D0B63721BD227E00744A0E /* BSPreloadTableVewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B63621BD227E00744A0E /* BSPreloadTableVewDemoTests.m */; };
 		33D0B64221BD227E00744A0E /* BSPreloadTableVewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */; };
+		33D0B65221BD22A600744A0E /* BSPreloadTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65121BD22A600744A0E /* BSPreloadTableView.m */; };
+		33D0B65821BD247200744A0E /* BSPTVReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65421BD247200744A0E /* BSPTVReachability.m */; };
+		33D0B65921BD247200744A0E /* BSPTVReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */; };
+		4DD7D6620D3B7A30D0A7A013 /* libPods-BSPreloadTableVewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */; };
+		9732C3EC538181C63569DC0B /* libPods-BSPreloadTableVewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */; };
+		E90C384767A7FD1A13C1FF5A /* libPods-BSPreloadTableVewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334ECAA421BD2FDD005F8915 /* BSRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSRequestManager.h; sourceTree = "<group>"; };
+		334ECAA521BD2FDD005F8915 /* BSRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSRequestManager.m; sourceTree = "<group>"; };
+		334ECAAA21BD35DA005F8915 /* TableViewCellTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellTest.h; sourceTree = "<group>"; };
+		334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellTest.m; sourceTree = "<group>"; };
+		334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellTest.xib; sourceTree = "<group>"; };
+		33827F2921BD26FE00675378 /* BSPreloadTableViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableViewDemo.h; sourceTree = "<group>"; };
+		33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemo.m; sourceTree = "<group>"; };
 		33D0B61A21BD227D00744A0E /* BSPreloadTableVewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPreloadTableVewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0B61D21BD227D00744A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33D0B61E21BD227D00744A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +68,21 @@
 		33D0B63D21BD227E00744A0E /* BSPreloadTableVewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableVewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableVewDemoUITests.m; sourceTree = "<group>"; };
 		33D0B64321BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33D0B65021BD22A600744A0E /* BSPreloadTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableView.h; sourceTree = "<group>"; };
+		33D0B65121BD22A600744A0E /* BSPreloadTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableView.m; sourceTree = "<group>"; };
+		33D0B65421BD247200744A0E /* BSPTVReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachability.m; sourceTree = "<group>"; };
+		33D0B65521BD247200744A0E /* BSPTVReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachabilityManager.h; sourceTree = "<group>"; };
+		33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSPTVReachabilityManager.m; sourceTree = "<group>"; };
+		33D0B65721BD247200744A0E /* BSPTVReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSPTVReachability.h; sourceTree = "<group>"; };
+		3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoUITests/Pods-BSPreloadTableVewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoUITests/Pods-BSPreloadTableVewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoTests/Pods-BSPreloadTableVewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BSPreloadTableVewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BSPreloadTableVewDemoTests/Pods-BSPreloadTableVewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BSPreloadTableVewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E90C384767A7FD1A13C1FF5A /* libPods-BSPreloadTableVewDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD7D6620D3B7A30D0A7A013 /* libPods-BSPreloadTableVewDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +106,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9732C3EC538181C63569DC0B /* libPods-BSPreloadTableVewDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03CD04A2D668B774CC3EE274 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */,
+				82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */,
+				A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */,
+				C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */,
+				8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */,
+				69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		33D0B61121BD227D00744A0E = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +133,8 @@
 				33D0B63521BD227E00744A0E /* BSPreloadTableVewDemoTests */,
 				33D0B64021BD227E00744A0E /* BSPreloadTableVewDemoUITests */,
 				33D0B61B21BD227D00744A0E /* Products */,
+				03CD04A2D668B774CC3EE274 /* Pods */,
+				6A05603CF2EA2AADE9BC5674 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +151,23 @@
 		33D0B61C21BD227D00744A0E /* BSPreloadTableVewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33D0B64F21BD228500744A0E /* BSPreloadTableVew */,
 				33D0B61D21BD227D00744A0E /* AppDelegate.h */,
 				33D0B61E21BD227D00744A0E /* AppDelegate.m */,
 				33D0B62021BD227D00744A0E /* ViewController.h */,
 				33D0B62121BD227D00744A0E /* ViewController.m */,
+				33827F2921BD26FE00675378 /* BSPreloadTableViewDemo.h */,
+				33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */,
+				334ECAAA21BD35DA005F8915 /* TableViewCellTest.h */,
+				334ECAAB21BD35DA005F8915 /* TableViewCellTest.m */,
+				334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */,
 				33D0B62321BD227D00744A0E /* Main.storyboard */,
 				33D0B62621BD227E00744A0E /* Assets.xcassets */,
 				33D0B62821BD227E00744A0E /* LaunchScreen.storyboard */,
 				33D0B62B21BD227E00744A0E /* Info.plist */,
 				33D0B62C21BD227E00744A0E /* main.m */,
+				334ECAA421BD2FDD005F8915 /* BSRequestManager.h */,
+				334ECAA521BD2FDD005F8915 /* BSRequestManager.m */,
 			);
 			path = BSPreloadTableVewDemo;
 			sourceTree = "<group>";
@@ -132,6 +190,37 @@
 			path = BSPreloadTableVewDemoUITests;
 			sourceTree = "<group>";
 		};
+		33D0B64F21BD228500744A0E /* BSPreloadTableVew */ = {
+			isa = PBXGroup;
+			children = (
+				33D0B65321BD247200744A0E /* Reachability */,
+				33D0B65021BD22A600744A0E /* BSPreloadTableView.h */,
+				33D0B65121BD22A600744A0E /* BSPreloadTableView.m */,
+			);
+			path = BSPreloadTableVew;
+			sourceTree = "<group>";
+		};
+		33D0B65321BD247200744A0E /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				33D0B65721BD247200744A0E /* BSPTVReachability.h */,
+				33D0B65421BD247200744A0E /* BSPTVReachability.m */,
+				33D0B65521BD247200744A0E /* BSPTVReachabilityManager.h */,
+				33D0B65621BD247200744A0E /* BSPTVReachabilityManager.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		6A05603CF2EA2AADE9BC5674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E2627F9EB028692D4B76085 /* libPods-BSPreloadTableVewDemo.a */,
+				879667684ACDCE1A98CB7CCA /* libPods-BSPreloadTableVewDemoTests.a */,
+				FD1393929FC60C00A7D9AD6B /* libPods-BSPreloadTableVewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemo" */;
 			buildPhases = (
+				519DBA61300FADB1430D180D /* [CP] Check Pods Manifest.lock */,
 				33D0B61621BD227D00744A0E /* Sources */,
 				33D0B61721BD227D00744A0E /* Frameworks */,
 				33D0B61821BD227D00744A0E /* Resources */,
+				AE183E30D1B2391543DBD8AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoTests" */;
 			buildPhases = (
+				02F963F5F3D9365358F3476E /* [CP] Check Pods Manifest.lock */,
 				33D0B62E21BD227E00744A0E /* Sources */,
 				33D0B62F21BD227E00744A0E /* Frameworks */,
 				33D0B63021BD227E00744A0E /* Resources */,
@@ -174,6 +266,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoUITests" */;
 			buildPhases = (
+				DD4595D00FFE331CD868842E /* [CP] Check Pods Manifest.lock */,
 				33D0B63921BD227E00744A0E /* Sources */,
 				33D0B63A21BD227E00744A0E /* Frameworks */,
 				33D0B63B21BD227E00744A0E /* Resources */,
@@ -236,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33D0B62A21BD227E00744A0E /* LaunchScreen.storyboard in Resources */,
+				334ECAAE21BD35DA005F8915 /* TableViewCellTest.xib in Resources */,
 				33D0B62721BD227E00744A0E /* Assets.xcassets in Resources */,
 				33D0B62521BD227D00744A0E /* Main.storyboard in Resources */,
 			);
@@ -257,14 +351,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02F963F5F3D9365358F3476E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519DBA61300FADB1430D180D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE183E30D1B2391543DBD8AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BSPreloadTableVewDemo/Pods-BSPreloadTableVewDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4595D00FFE331CD868842E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BSPreloadTableVewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33D0B61621BD227D00744A0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D0B65921BD247200744A0E /* BSPTVReachabilityManager.m in Sources */,
 				33D0B62221BD227D00744A0E /* ViewController.m in Sources */,
 				33D0B62D21BD227E00744A0E /* main.m in Sources */,
+				33D0B65221BD22A600744A0E /* BSPreloadTableView.m in Sources */,
+				33827F2B21BD26FE00675378 /* BSPreloadTableViewDemo.m in Sources */,
+				334ECAAD21BD35DA005F8915 /* TableViewCellTest.m in Sources */,
 				33D0B61F21BD227D00744A0E /* AppDelegate.m in Sources */,
+				334ECAA621BD2FDD005F8915 /* BSRequestManager.m in Sources */,
+				33D0B65821BD247200744A0E /* BSPTVReachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +624,7 @@
 		};
 		33D0B64721BD227E00744A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8152BBACEFD4DACD5B4B158A /* Pods-BSPreloadTableVewDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +642,7 @@
 		};
 		33D0B64821BD227E00744A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82228ABB80E02C4FDBA0FBDA /* Pods-BSPreloadTableVewDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +660,7 @@
 		};
 		33D0B64A21BD227E00744A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6A239DC53B01822F18545EF /* Pods-BSPreloadTableVewDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +680,7 @@
 		};
 		33D0B64B21BD227E00744A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3280A43DA8A75820F1BAF32 /* Pods-BSPreloadTableVewDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +700,7 @@
 		};
 		33D0B64D21BD227E00744A0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A42178CC555B226ED80EAD3 /* Pods-BSPreloadTableVewDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
@@ -523,6 +719,7 @@
 		};
 		33D0B64E21BD227E00744A0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D3FF6B705F1AD10B66AAA3 /* Pods-BSPreloadTableVewDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TE7JH4FV3T;
