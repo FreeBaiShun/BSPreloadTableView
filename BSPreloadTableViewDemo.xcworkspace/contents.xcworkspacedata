@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:BSPreloadTableVewDemo.xcodeproj">
+      location = "group:/Users/baishun/Desktop/BSPreloadTableVewDemo/BSPreloadTableViewDemo.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

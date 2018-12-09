@@ -52,7 +52,7 @@
 		334ECAAC21BD35DA005F8915 /* TableViewCellTest.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCellTest.xib; sourceTree = "<group>"; };
 		33827F2921BD26FE00675378 /* BSPreloadTableViewDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableViewDemo.h; sourceTree = "<group>"; };
 		33827F2A21BD26FE00675378 /* BSPreloadTableViewDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableViewDemo.m; sourceTree = "<group>"; };
-		33D0B61A21BD227D00744A0E /* BSPreloadTableVewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPreloadTableVewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSPreloadTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0B61D21BD227D00744A0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33D0B61E21BD227D00744A0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		33D0B62021BD227D00744A0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -62,10 +62,10 @@
 		33D0B62921BD227E00744A0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D0B62B21BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D0B62C21BD227E00744A0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		33D0B63221BD227E00744A0E /* BSPreloadTableVewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableVewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0B63621BD227E00744A0E /* BSPreloadTableVewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableVewDemoTests.m; sourceTree = "<group>"; };
 		33D0B63821BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		33D0B63D21BD227E00744A0E /* BSPreloadTableVewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableVewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSPreloadTableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D0B64121BD227E00744A0E /* BSPreloadTableVewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSPreloadTableVewDemoUITests.m; sourceTree = "<group>"; };
 		33D0B64321BD227E00744A0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33D0B65021BD22A600744A0E /* BSPreloadTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BSPreloadTableView.h; sourceTree = "<group>"; };
@@ -141,9 +141,9 @@
 		33D0B61B21BD227D00744A0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33D0B61A21BD227D00744A0E /* BSPreloadTableVewDemo.app */,
-				33D0B63221BD227E00744A0E /* BSPreloadTableVewDemoTests.xctest */,
-				33D0B63D21BD227E00744A0E /* BSPreloadTableVewDemoUITests.xctest */,
+				33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */,
+				33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */,
+				33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -224,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33D0B61921BD227D00744A0E /* BSPreloadTableVewDemo */ = {
+		33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemo" */;
+			buildConfigurationList = 33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */;
 			buildPhases = (
 				519DBA61300FADB1430D180D /* [CP] Check Pods Manifest.lock */,
 				33D0B61621BD227D00744A0E /* Sources */,
@@ -238,14 +238,14 @@
 			);
 			dependencies = (
 			);
-			name = BSPreloadTableVewDemo;
+			name = BSPreloadTableViewDemo;
 			productName = BSPreloadTableVewDemo;
-			productReference = 33D0B61A21BD227D00744A0E /* BSPreloadTableVewDemo.app */;
+			productReference = 33D0B61A21BD227D00744A0E /* BSPreloadTableViewDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		33D0B63121BD227E00744A0E /* BSPreloadTableVewDemoTests */ = {
+		33D0B63121BD227E00744A0E /* BSPreloadTableViewDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoTests" */;
+			buildConfigurationList = 33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */;
 			buildPhases = (
 				02F963F5F3D9365358F3476E /* [CP] Check Pods Manifest.lock */,
 				33D0B62E21BD227E00744A0E /* Sources */,
@@ -257,14 +257,14 @@
 			dependencies = (
 				33D0B63421BD227E00744A0E /* PBXTargetDependency */,
 			);
-			name = BSPreloadTableVewDemoTests;
+			name = BSPreloadTableViewDemoTests;
 			productName = BSPreloadTableVewDemoTests;
-			productReference = 33D0B63221BD227E00744A0E /* BSPreloadTableVewDemoTests.xctest */;
+			productReference = 33D0B63221BD227E00744A0E /* BSPreloadTableViewDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		33D0B63C21BD227E00744A0E /* BSPreloadTableVewDemoUITests */ = {
+		33D0B63C21BD227E00744A0E /* BSPreloadTableViewDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoUITests" */;
+			buildConfigurationList = 33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */;
 			buildPhases = (
 				DD4595D00FFE331CD868842E /* [CP] Check Pods Manifest.lock */,
 				33D0B63921BD227E00744A0E /* Sources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				33D0B63F21BD227E00744A0E /* PBXTargetDependency */,
 			);
-			name = BSPreloadTableVewDemoUITests;
+			name = BSPreloadTableViewDemoUITests;
 			productName = BSPreloadTableVewDemoUITests;
-			productReference = 33D0B63D21BD227E00744A0E /* BSPreloadTableVewDemoUITests.xctest */;
+			productReference = 33D0B63D21BD227E00744A0E /* BSPreloadTableViewDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableVewDemo" */;
+			buildConfigurationList = 33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,9 +316,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33D0B61921BD227D00744A0E /* BSPreloadTableVewDemo */,
-				33D0B63121BD227E00744A0E /* BSPreloadTableVewDemoTests */,
-				33D0B63C21BD227E00744A0E /* BSPreloadTableVewDemoUITests */,
+				33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */,
+				33D0B63121BD227E00744A0E /* BSPreloadTableViewDemoTests */,
+				33D0B63C21BD227E00744A0E /* BSPreloadTableViewDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -480,12 +480,12 @@
 /* Begin PBXTargetDependency section */
 		33D0B63421BD227E00744A0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33D0B61921BD227D00744A0E /* BSPreloadTableVewDemo */;
+			target = 33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */;
 			targetProxy = 33D0B63321BD227E00744A0E /* PBXContainerItemProxy */;
 		};
 		33D0B63F21BD227E00744A0E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 33D0B61921BD227D00744A0E /* BSPreloadTableVewDemo */;
+			target = 33D0B61921BD227D00744A0E /* BSPreloadTableViewDemo */;
 			targetProxy = 33D0B63E21BD227E00744A0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -674,7 +674,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableVewDemo.app/BSPreloadTableVewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableViewDemo.app/BSPreloadTableViewDemo";
 			};
 			name = Debug;
 		};
@@ -694,7 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baidu.BSPreloadTableVewDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableVewDemo.app/BSPreloadTableVewDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BSPreloadTableViewDemo.app/BSPreloadTableViewDemo";
 			};
 			name = Release;
 		};
@@ -739,7 +739,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableVewDemo" */ = {
+		33D0B61521BD227D00744A0E /* Build configuration list for PBXProject "BSPreloadTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33D0B64421BD227E00744A0E /* Debug */,
@@ -748,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemo" */ = {
+		33D0B64621BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33D0B64721BD227E00744A0E /* Debug */,
@@ -757,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoTests" */ = {
+		33D0B64921BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33D0B64A21BD227E00744A0E /* Debug */,
@@ -766,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableVewDemoUITests" */ = {
+		33D0B64C21BD227E00744A0E /* Build configuration list for PBXNativeTarget "BSPreloadTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33D0B64D21BD227E00744A0E /* Debug */,

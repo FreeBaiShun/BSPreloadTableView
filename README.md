@@ -3,7 +3,7 @@
 2. 用的时候只要继承这个tableView即可实现上述功能，可以重写父类实现自定义样式。
 
 # 效果
-![image](https://github.com/FreeBaiShun/BSPreloadTableVew/blob/master/BSPreloadTableVew.gif)
+![image](https://github.com/FreeBaiShun/BSPreloadTableView/blob/master/BSPreloadTableView.gif)
 
 # 用法
  1. pod 'BSPreloadTableVew'
